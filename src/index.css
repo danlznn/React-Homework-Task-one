@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.todosList {
+	list-style-type: none;
+	width: 220px;
+	margin: 40px auto;
+	padding: 0;
+}
+
+.deleteButton {
+	float: right;
+	background: #B71C1C;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.buttonSave {
+	background: #80CBC4;
+	border: 2px solid black;
+}
+
+.buttonSave:hover {
+	background: #00695C;
+	color: #fff;
+}
+
+li {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 3px;
+	font-weight: bold;
+}
+
+.inputTodos {
+	float: left;
+}
+
+.titlePage {
+	
+}
